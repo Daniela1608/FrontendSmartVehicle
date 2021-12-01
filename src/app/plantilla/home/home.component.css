@@ -1,0 +1,52 @@
+.responsive-img{
+    padding-top: 20px;
+    width: 20%;
+    height: auto;
+ 
+}
+
+#titulo{
+    display: inline-block
+}
+
+#contenedor_principal{
+    width:1024px;
+    height:auto;
+    position:relative;
+    margin:auto;
+    }
+    .contenedor_imagen_texto{
+    width:100%;
+    height:auto;
+    position:relative;
+    display:inline-block;
+    vertical-align:top;
+    overflow:hidden;
+    }
+    .imagen, .texto{
+    width:40px;
+    height:auto;
+    position:relative;
+    display:inline;
+    object-fit: cover;
+    }
+    .texto{
+    height:auto;
+    text-align:center
+    }
+
+    #carro{
+        width: 30%;
+    }
+    #moto{
+        width: 30%;
+    }
+    #patineta{
+        width: 30%;
+    }
+
+    .row{
+        border-top: 1px solid red;
+    }
+    
+    
