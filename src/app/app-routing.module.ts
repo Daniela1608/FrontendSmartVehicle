@@ -3,6 +3,8 @@ import { RouterModule, Routes } from '@angular/router';
 import { ErrorComponent } from './plantilla/error/error.component';
 import { HomeComponent } from './plantilla/home/home.component';
 
+
+
 const routes: Routes = [
   {
     path:"home",
@@ -25,6 +27,7 @@ const routes: Routes = [
     path:'administracion',
     loadChildren: () => import("./modulos/administracion/administracion.module").then(x => x.AdministracionModule)
   }
+  
   
 ];
 
