@@ -37,13 +37,15 @@
     }
 
     #carro{
-        width: 30%;
+        width: 60%;
+        margin-top: 102px;
     }
     #moto{
-        width: 30%;
+        width: 60%;
+        margin-top: 62px;
     }
     #patineta{
-        width: 30%;
+        width: 60%;
     }
 
     .row{
@@ -53,9 +55,9 @@
         text-align: center;
     }
     .imagetitle{
-        margin: -100px 1px 1px 1px;
-        padding: 15px;
-        margin-left: 50px;
+        margin-left: 100px;
+        width: 260px;
+        margin-top: -71px;
     }
     .aside{
         margin-top: 100px;
